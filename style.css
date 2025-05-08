@@ -12,7 +12,9 @@ body {
     color: #d4d4d4;
     border-radius: 15px;
     display: flex;
-    max-width: 800px;
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
     position: relative;
@@ -81,5 +83,20 @@ body {
     width: 60px;
     opacity: 0.5;
     filter: brightness(0) invert(1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      flex-direction: column;
+    }
+  
+    .profile-photo img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .info {
+      padding: 20px;
+    }
   }
   
