@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #252526;
+    color: #d4d4d4;
+    border-radius: 15px;
+    display: flex;
+    max-width: 800px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    position: relative;
+  }
+  
+  .profile-photo img {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    padding: 30px;
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #0dbd8b;
+    letter-spacing: 1.5px;
+  }
+  
+  .job {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #569cd6;
+  }
+  
+  .divider {
+    width: 50px;
+    height: 2px;
+    background-color: #0dbd8b;
+    margin: 15px 0;
+  }
+  
+  .contacts {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacts li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacts i {
+    margin-right: 10px;
+    color: #0dbd8b;
+  }
+  
+  .contacts a {
+    color: #9cdcfe;
+    text-decoration: none;
+  }
+  
+  .contacts a:hover {
+    text-decoration: underline;
+  }
+  
+  .code-decor {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+    opacity: 0.5;
+    filter: brightness(0) invert(1);
+  }
+  
